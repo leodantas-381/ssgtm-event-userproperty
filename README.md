@@ -18,7 +18,7 @@ Each user can have multiple user properties (up map).
 
 There is an event to set_user_properties, which creates/updates the user properties.
 
-Each and every other event will retrieve the user properties key-values and store it together with the event, event_parameters and every other information you like.
+Each and every other event will fetch the user properties key-values and store it together with the event, event_parameters and every other information you like.
 This way, if user_id 123456 is set user_property "user_status"="cancelled", it will reflect in each and every event of this user_id, no matter the platform.
 
 # Status
